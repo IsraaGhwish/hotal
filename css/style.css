@@ -1,0 +1,271 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} 
+h1,h2,h3,h4{
+    padding-bottom: 20px;
+}
+p{
+    font-size: 20px;
+}
+
+.btn{
+    color: #fff;
+    background-color: #333;
+    display: inline-block;
+    font-size: 18px;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: #f7c08a;
+    color: #333;
+}
+.btn-light{
+background-color: #fff;
+color: #333;
+}
+
+
+/* ================================nav============================== */
+.navbar{
+    background: #333;
+}
+.navbar a{
+    color: #fff;
+}
+.navbar .navbar-brand {
+    font-weight: 900;
+    font-size: 23px;
+}
+.navbar .nav-item :hover,.navbar .nav-item .current{
+    background-color: #444;
+    color: #f7c08a;
+}
+.navbar .nav-item :focus{
+    background-color: #444;
+    color: #f7c08a;
+}
+
+/* ================================nav============================== */
+
+/* ================================header============================== */
+header{
+    background-image: url(../img/pexels-photo-164595.jpeg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 600px;
+    overflow: hidden;
+}
+
+header .show-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+header .show-content h1{
+    font-size: 60px;
+    font-weight: 700px;
+    line-height: 1.2em;
+}
+header .show-content h1 span{
+    color: #f7c08a;
+}
+header .show-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+
+
+/* ================================header============================== */
+
+
+
+/* ==================================home-info=========================== */
+
+.home-info{
+    overflow: hidden;
+}
+.home-info .row .info-img{
+    background-image: url(../img/pexels-photo-2467558.jpeg);
+    min-height: 100%;
+    width: 103%;
+}
+.home-info .row .info-content span{
+    color: #f7c08a;
+}
+.home-info .row .info-content{
+    padding: 50px 30px;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+}
+
+
+/* ==================================home-info=========================== */
+
+
+
+/* ===============================feadured=================================== */
+.feadured{
+    overflow: hidden;
+
+}
+.feadured .feadured-info{
+    background: #f4f4f4;
+    width: 107%;
+   
+}
+.feadured .feadured-info.bg{
+    background-color: #f7c08a;
+}
+.feadured .feadured-info .icon{
+    text-align: center;
+    padding-top: 100px;
+}
+.feadured .feadured-info .icon h3{
+    font-weight: 700;
+}
+.feadured .feadured-info p{
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 56px;
+    padding-bottom: 70px;
+
+
+}
+/* =============================feadured===============================*/
+
+
+
+/* =============================footer================================= */
+footer .main-footer{
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    margin-top: -16px;
+    padding: 20px;
+
+}
+/* =============================footer================================= */
+
+
+
+
+
+
+
+
+
+
+/* =======================contact=========================== */
+.contact-form .l-heading{
+    font-size: 55px;
+    font-weight: 800;
+}
+.contact-form .l-heading span{
+    color: #f7c08a;
+}
+.contact-form p{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.contact-form{
+    padding: 100px 0;
+}
+
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #f7c08a; 
+}
+
+
+.contact-form .form-group .l-message{
+    display: block;
+}
+.form-group textarea{
+    width: 100%;
+    border: 1px solid #ced4da;
+    outline: 0;
+}
+.form-group textarea:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #f7c08a; 
+}
+.contact-info {
+    color: #fff;
+}
+ .contact-info  .icon{
+    text-align: center;
+    padding-top: 100px;
+}
+ .contact-info .icon h3{
+    font-weight: 700;
+}
+.contact-info  p{
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 56px;
+    padding-bottom: 70px;
+
+
+}
+
+
+
+
+/* =====================about========================== */
+.about-info{
+    padding: 100px 0;
+}
+
+.about-info h1{
+    font-size: 55px;
+    font-weight: 800;
+}
+.about-info h1 span{
+    color: #f7c08a;
+}
+.about-info .info-right .img img{
+    height: 300px;
+    border-radius: 50%;
+    margin: 35px 50px;
+}
+.testmonials{
+    background-image: url(../img/pexels-photo-260922.jpeg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 650px;
+}
+.testmonials h2{
+    text-align: center;
+    padding: 70px 0 40px;
+    color: #fff;
+    font-size: 49px;
+    font-weight: 700;
+}
+.testmonials .Guests{
+    background-color: #f7c08ac2;
+    padding: px;
+}
+.testmonials .Guests .row{
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.testmonials .Guests img{
+    width: 102px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
